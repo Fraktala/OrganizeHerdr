@@ -1,0 +1,6 @@
+OrganizeHerdr
+
+mods/agents-progress/main.js is derived from the "agents" mod shipped with
+Herdr 0.1.14 (https://github.com/herdrdev/herdr-app), licensed under the
+Apache License, Version 2.0. It has been modified to add progress bars,
+status colours, role names, tab badges, lead labels and terminal sets.
