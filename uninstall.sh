@@ -10,6 +10,6 @@ if command -v herdr-app >/dev/null; then
 fi
 
 rm -f "$herdr_home/layouts/main-progress.json"
-rm -rf "$herdr_home/mods/agents-progress" "$claude_home/skills/herdr-team"
+rm -rf "$herdr_home/mods/agents-progress" "$claude_home/skills/herdr-team" "$claude_home/skills/herdr-workspace"
 
 echo "Removed. Herdr is back on its main layout."

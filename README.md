@@ -10,6 +10,7 @@ A mod for the [Herdr](https://herdr.dev) desktop app and a Claude Code skill for
 - **Tab badges** showing where each lead and worker lives.
 - **Terminal sets:** the `+` beside a project opens a clean terminal in a new space, listed under that project below a divider. Hover over a divider for another `+`.
 - **`herdr-team` skill** for starting workers, messaging between them and their lead, and handling blocked or failed workers.
+- **`herdr-workspace` skill (optional)** teaching an agent to report progress, open tabs and spaces, and give workers their own tabs.
 
 ## Requirements
 
@@ -25,6 +26,12 @@ cd OrganizeHerdr
 ```
 
 The script copies the mod to `~/.config/herdr-app/mods/agents-progress`, creates and activates the `main-progress` layout, and copies the skill to `~/.claude/skills/herdr-team`. Herdr's own `main` layout and `agents` mod are not changed.
+
+The `herdr-workspace` skill is not installed by default. To add it, at install time or later:
+
+```sh
+./install.sh --workspace-skill
+```
 
 To remove everything, run `./uninstall.sh`.
 
